@@ -7,8 +7,8 @@ scanf("%d",&x);
 printf("enter second number:");  
 scanf("%d",&y);  
   
-result=x+y;  
-printf("sum of 2 numbers:%d ",result);  
+result=x-y;  
+printf("subtract of 2 numbers:%d ",result);  
   
 return 0;  
 }    
