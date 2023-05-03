@@ -2,13 +2,15 @@
 int main(){    
 int x=0,y=0,result=0;  
   
-printf("enter first number:");  
+printf("enter 1st number:");  
 scanf("%d",&x);  
-printf("enter second number:");  
+printf("enter 2nd number:");  
 scanf("%d",&y);  
   
 result=x+y;  
-printf("sum of 2 numbers:%d ",result);  
+printf("1st number is:%d",x);
+printf("2nd number is:%d",y);
+printf("sum of the two numbers: %d + %d = %d ",x,y,result);  
   
 return 0;  
 }    
