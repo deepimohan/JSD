@@ -1,16 +1,16 @@
 #include<stdio.h>    
 int main(){    
-int x=0,y=0,z=0,result=0;  
+int x,y,z,result=x*y*z;  
   
-printf("enter first number:");  
+printf("enter first number :x");  
 scanf("%d",&x);  
-printf("enter second number:");  
+printf("enter second number:y");  
 scanf("%d",&y); 
-printf("Enter third number: ");
+printf("Enter third number:z");
 scanf("%d", &z);
   
-result=x+y+z;  
-printf("sum of 3 numbers:%d ",result);  
+result=x*y*z;  
+printf(" multiplication of 3 numbers:%d ",result);  
   
 return 0;  
 }    
