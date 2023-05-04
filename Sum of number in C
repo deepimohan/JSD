@@ -1,6 +1,6 @@
 #include<stdio.h>    
 int main(){    
-int x=0,y=0,result=0;  
+int x=4,y=6,result=10;  
   
 printf("enter first number:");  
 scanf("%d",&x);  
