@@ -1,15 +1,15 @@
 #include<stdio.h>    
 int main(){    
-int x=0,y=0,z=0,result=0;  
+int x=0,y=0,p=0,result=0;  
   
 printf("enter first number:");  
 scanf("%d",&x);  
 printf("enter second number:");  
 scanf("%d",&y); 
 printf("Enter third number: ");
-scanf("%d", &z);
+scanf("%d", &p);
   
-result=x+y+z;  
+result=x+y+p;  
 printf("sum of 3 numbers:%d ",result);  
   
 return 0;  
