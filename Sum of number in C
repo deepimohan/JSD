@@ -8,6 +8,9 @@ printf("enter second number:");
 scanf("%d",&y); 
 printf("Enter third number: ");
 scanf("%d", &z);
+
+printf("Enter fourth number: ");
+scanf("%d" , &g);
   
 result=x+y+z;  
 printf("sum of 3 numbers:%d ",result);  
